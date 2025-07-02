@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 0 1rem;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#bio {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 0.846875rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #202020;
+    color: #D7D7D7;
+    height: 6.5rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+    height: 31px;
+    font-size: 0.75rem;
+    line-height: 125%;
+}
+
+#copyright {
+    color: #D7D7D7;
+}
+
+#footer-container h3,
+#footer-container p {
+  margin: 0;  /* removes spacing between them */
+}
+#logo {
+    height: 23.16px;
+    width: 23.16px;
+    padding-right: 0.5em;
+} 
+
+#learning_journal {
+    display: flex;
+    align-items: center;
+}
+
+#nav_links {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.846875rem;
+  color: #090909;
+  font-weight:600;
+  padding-left: 1.75rem;
+}
+#navigation {
+    display: flex;
+    align-items: center;
+}
+
+#post-title {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.blog {
+    width: 100%;
+    margin: 0;    
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.blog p {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+.blog-image {
+    border-radius: 3%;
+    width: 100%;
+}
+.blog-date {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.blog-title {
+    margin: 0;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #090909;
+    font-weight:900;
+}
+
+#title .blog-date {
+    margin: 0;
+    padding-top: 3rem;
+}
+
+#title {
+    padding-left: 20px;
+    color: #FFFFFF;
+    min-height: 18.25rem;
+    margin:  0 -1rem;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1rem;
+}
+#title {
+    background-image: url("images/article-image-04.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    #title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 2em;
+    }
+    #main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+@media (min-width: 1280px) { 
+
+}
